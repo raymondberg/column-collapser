@@ -58,7 +58,7 @@ class ColumnCollapser:
 
 if __name__ == "__main__":
     if not len(sys.argv) == 2:
-        print("usage: python digest.py file_with_too_many_commas")
+        print("usage: python column_collapser.py file_with_too_many_commas")
         exit(1)
 
     ColumnCollapser.fixup_lines(filename=sys.argv[1])
